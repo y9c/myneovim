@@ -96,7 +96,8 @@ function! s:use_dein()
 
   if has('vim_starting')
     " Use dein as a plugin manager
-    let g:dein#auto_recache = 1
+		let g:dein#lazy_rplugins = 1
+    let g:dein#auto_recache = 0
     let g:dein#install_max_processes = 12
     let g:dein#install_progress_type = 'tabline'
     let g:dein#enable_notification = 0
