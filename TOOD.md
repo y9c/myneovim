@@ -1,0 +1,1 @@
+- [x] fix vim-visual-increment not working
