@@ -11,8 +11,8 @@
 
 # Editor UI{{{
 - repo: ryanoasis/vim-devicons
-- repo: hardcoreplayers/spaceline.vim
-- repo: hardcoreplayers/vim-buffet
+- repo: glepnir/spaceline.vim
+- repo: bagrat/vim-buffet
 - repo: mhinz/vim-startify
   hook_add: source  $VIM_PATH/modules/module-startify.vim
   hook_post_source: |
@@ -225,9 +225,6 @@
     let g:go_highlight_string_spellcheck = 0
     let g:go_highlight_variable_declarations = 0
     let g:go_highlight_variable_assignments = 0
-
-# - repo : hardcoreplayers/go-nvim
-#   on_ft: [ go ,gomod ]
 
 - repo: sebdah/vim-delve
   on_ft: go
